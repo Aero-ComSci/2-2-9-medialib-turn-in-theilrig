@@ -2,6 +2,7 @@ public class Book {
 
     private String title;
     private String author;
+    
     private int rating;
 
     public Book(String t, String a) {
@@ -29,7 +30,7 @@ public class Book {
     }
 
     public boolean equals(Book b) {
-        return this.title.equals(b.title) &&
+        return this.title.equals(b.title) &&  
                this.author.equals(b.author);
     }
 
