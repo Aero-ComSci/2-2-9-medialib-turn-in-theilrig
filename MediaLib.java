@@ -13,7 +13,7 @@ public class MediaLib {
     public MediaLib() {
     }
 
-    // addBook using parameters (required by test)
+    // addBook using parameters (9required by test)
     public void addBook(String title, String author) {
         if (book == null) {
             book = new Book(title, author);
@@ -38,7 +38,8 @@ public class MediaLib {
         }
     }
 
-    // REQUIRED ACCESSORS
+    //other adds are same as prev ones 
+    // REQUIRED ACCESSORS from 2.9 
     public static int getNumBooks() {
         return numBooks;
     }
